@@ -1,9 +1,9 @@
-vHangulCounter EQU $9600
-vHangulDest EQU $9602
-vHangulSrc EQU $9604
-vUploadedTile EQU $9610
+vHangulCounter EQU $8E40
+vHangulDest EQU $8E42
+vHangulSrc EQU $8E44
+vUploadedTile EQU $8E50
 FontInfoTile EQU 8
-MaxFontLimit EQU $36
+MaxFontLimit EQU $32
 PrintHangul:
 	
 	;hl(TileMap) bc(Script Bytes), return a : FontBank
