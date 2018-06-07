@@ -2014,21 +2014,9 @@ FuchsiaGymBlocks: INCBIN "maps/fuchsiagym.blk"
 INCLUDE "data/mapHeaders/fuchsiameetingroom.asm"
 INCLUDE "scripts/fuchsiameetingroom.asm"
 INCLUDE "data/mapObjects/fuchsiameetingroom.asm"
-FuchsiaMeetingRoomBlocks: INCBIN "maps/fuchsiameetingroom.blk"
-
-INCLUDE "data/mapHeaders/cinnabargym.asm"
-INCLUDE "scripts/cinnabargym.asm"
-INCLUDE "data/mapObjects/cinnabargym.asm"
-CinnabarGymBlocks: INCBIN "maps/cinnabargym.blk"
-
-INCLUDE "data/mapHeaders/lab1.asm"
-INCLUDE "scripts/lab1.asm"
-INCLUDE "data/mapObjects/lab1.asm"
-Lab1Blocks: INCBIN "maps/lab1.blk"
-
-INCLUDE "data/mapHeaders/lab2.asm"
-INCLUDE "scripts/lab2.asm"
-INCLUDE "data/mapObjects/lab2.asm"
+FuchsiaMeetingRoomBlocks: INCBIN "maps/fuchsiameetingroom.blkÀ@n«~úþU}%Ò½BÎ<uSï{HW›@¸ÂTËÜÅ¥bÖjæQÇ0pnÂË+}’Ý=ëf4í¶Á¤P°(íÛˆ«GÜ:‹(f²–f]e‘ $ø]+¶¥‹†KŸÍ›ûeÎî#I‚'Â†¸ÕŠÚKî	‚škzë¯Ù=Ñ”$Â¼
+Ú`0-»­èf…¸sõ¨oöÛS±¿ÚœŽZ‡”µ u)Ò¯—4Ó<Õfk±ÑQ¶ê*å\”á«ié,ZÄHêŒì…‘`Ô[èŸ Þw	©8)ÝŠLKÜ‘õó$Å#‚¡Ü–ÑõI\¥™al÷ŸÒ´RIJO$«!¿j8 jqÞ¿×õPi¡…þ¡¯Í—h¾ÕÕöhï‡ýh¢õó0ù£f”dg¢VþÕÚ9º‰Òu5V†¢°¾]=ÞžM&µ¸‹Œ2)t
+{73»nŠdßÀ}•=Á‰Ð3Ð-@ºz>7”/z(0™”Þdóæ¢å­wôØ©C¿µàb2.asm"
 Lab2Blocks: INCBIN "maps/lab2.blk"
 
 INCLUDE "data/mapHeaders/lab3.asm"
@@ -2098,6 +2086,10 @@ INCLUDE "engine/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 
 INCLUDE "engine/items/tm_prices.asm"
+
+SECTION "LegacyFont",ROMX[$4000],BANK[$30]
+LegacyFont::
+INCBIN "gfx/font_legacy.1bpp"
 
 SECTION "HangulFont30",ROMX[$5000],BANK[$30]
 INCBIN "hangul/font/font30.fnt"
